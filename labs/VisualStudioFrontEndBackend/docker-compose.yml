@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  frontend.web:
+    image: frontendweb
+    build:
+      context: .\FrontEnd.Web
+      dockerfile: Dockerfile
+
+  backend.web:
+    image: backendweb
+    build:
+      context: .\BackEnd.Web
+      dockerfile: Dockerfile
+

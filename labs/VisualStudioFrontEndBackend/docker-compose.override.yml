@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  frontend.web:
+    ports:
+      - "80"
+  backend.web:
+    
+networks:
+  default:
+    external:
+      name: nat
+
