@@ -1,4 +1,4 @@
-FROM microsoft/aspnet:4.7.2 
+FROM mcr.microsoft.com/windows/servercore:ltsc2019
 RUN md \Lab2
 COPY get-name.ps1 \Lab2
-ENTRYPOINT ["powershell","c:\\Lab2\\get-name.ps1"]
+CMD ["powershell","c:\\Lab2\\get-name.ps1"]
