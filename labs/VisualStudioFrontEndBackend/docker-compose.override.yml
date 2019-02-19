@@ -1,13 +1,10 @@
-version: '3'
+version: '3.4'
 
 services:
   frontend.web:
     ports:
       - "80"
-  backend.web:
-    
 networks:
   default:
     external:
       name: nat
-

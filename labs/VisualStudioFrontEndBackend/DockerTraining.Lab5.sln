@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd.Web", "FrontEnd.Web\FrontEnd.Web.csproj", "{9DB09912-D204-4567-B171-F8342B26D7BA}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{789ECD46-10D0-4CD7-81C4-CC506C9CF97B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Web", "BackEnd.Web\BackEnd.Web.csproj", "{09DE2D80-BE39-46D6-9582-C774F32ED085}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{475CCCA7-9ED1-4420-ACAA-FA4940400D89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{9DB09912-D204-4567-B171-F8342B26D7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DB09912-D204-4567-B171-F8342B26D7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DB09912-D204-4567-B171-F8342B26D7BA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{789ECD46-10D0-4CD7-81C4-CC506C9CF97B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{789ECD46-10D0-4CD7-81C4-CC506C9CF97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{789ECD46-10D0-4CD7-81C4-CC506C9CF97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{789ECD46-10D0-4CD7-81C4-CC506C9CF97B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{09DE2D80-BE39-46D6-9582-C774F32ED085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{09DE2D80-BE39-46D6-9582-C774F32ED085}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09DE2D80-BE39-46D6-9582-C774F32ED085}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09DE2D80-BE39-46D6-9582-C774F32ED085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475CCCA7-9ED1-4420-ACAA-FA4940400D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475CCCA7-9ED1-4420-ACAA-FA4940400D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475CCCA7-9ED1-4420-ACAA-FA4940400D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475CCCA7-9ED1-4420-ACAA-FA4940400D89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

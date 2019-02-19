@@ -1,15 +1,8 @@
-version: '3'
+version: '3.4'
 
 services:
   frontend.web:
-    image: frontendweb
+    image: ${DOCKER_REGISTRY-}frontendweb
     build:
       context: .\FrontEnd.Web
       dockerfile: Dockerfile
-
-  backend.web:
-    image: backendweb
-    build:
-      context: .\BackEnd.Web
-      dockerfile: Dockerfile
-
