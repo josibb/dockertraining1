@@ -10,9 +10,3 @@ services:
 
   backend.web:
     image: backendweb
-    
-networks:
-  default:
-    external:
-      name: nat
-
