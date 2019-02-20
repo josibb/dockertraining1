@@ -6,3 +6,9 @@ services:
     build:
       context: .\FrontEnd.Web
       dockerfile: Dockerfile
+
+  backend.web:
+    image: ${DOCKER_REGISTRY-}backendweb
+    build:
+      context: .\BackEnd.Web
+      dockerfile: Dockerfile
